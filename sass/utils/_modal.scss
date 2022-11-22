@@ -93,12 +93,11 @@
   border: 1px solid var(--accent-color);
 }
 
-.form__textarea::placeholder {
-  color: rgba(117, 117, 117, 0.5);
-}
-
 .form__textarea {
   margin-bottom: 20px;
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
 }
 
 .form__area {

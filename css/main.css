@@ -288,28 +288,23 @@ button {
   border: 1px solid var(--accent-color);
 }
 
+.form__textarea {
+  margin-bottom: 20px;
+}
 .form__textarea::-webkit-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__textarea::-moz-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__textarea:-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__textarea::-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
-}
-
-.form__textarea {
-  margin-bottom: 20px;
 }
 
 .form__area {
