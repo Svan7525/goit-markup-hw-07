@@ -1,0 +1,145 @@
+footer {
+  background-color: var(--background-color);
+  padding: 60px 0;
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__right {
+  margin-right: 70px;
+}
+
+.logo__footer {
+  color: var(--hero-text-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.site-footer .adress,
+.site-footer .mail,
+.site-footer .phone {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.site-footer .adress {
+  color: var(--hero-text-color);
+  font-style: normal;
+  transition: color var(--trns);
+}
+
+.site-footer .mail,
+.site-footer .phone {
+  color: var(--footer-text-color);
+  font-style: normal;
+  transition: color var(--trns);
+}
+
+.footer-social__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-social__list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-social__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  color: var(--background-section-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--trns);
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
+}
+
+.footer-social-icon {
+  fill: currentColor;
+}
+
+.subscribe {
+  margin-left: auto;
+}
+
+.subscribe__text {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--hero-text-color);
+}
+
+.footer__form {
+  display: flex;
+  width: 570px;
+}
+
+.subscribe .footer__input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--footer-text-color);
+  background-color: var(--background-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.subscribe-button {
+  position: relative;
+  width: 200px;
+  margin-left: 12px;
+  padding: 10px 28px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  text-align: justify;
+  color: var(--hero-text-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms var(--trns);
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.send-icon {
+  position: absolute;
+  margin-left: 10px;
+}
